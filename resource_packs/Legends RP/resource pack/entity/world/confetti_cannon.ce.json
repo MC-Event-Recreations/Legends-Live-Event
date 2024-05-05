@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:confetti_cannon",
+            "materials": { "default": "entity_alphatest" },
+            "spawn_egg": { "base_color": "#AFD6DC", "overlay_color": "#0995AB" },
+            "textures": { "default": "textures/entity/confetti_cannon" },
+            "geometry": { "default": "geometry.confetti_cannon" },
+            "animations": {
+                "confetti": "animation.confetti_cannon.confetti",
+                "controller": "controller.animation.confetti.particle"
+            },
+            "particle_effects": { "confetti": "pork:confetti" },
+            "scripts": { "should_update_effects_offscreen": true, "animate": [ "controller" ]},
+            "render_controllers": [ "controller.render.gm1.default" ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.particle.health_bar": {
+            "states": {
+                "default": { "transitions": [{ "play_particle": "q.is_alive && q.health < q.max_health" }]},
+                "play_particle": {
+                    "transitions": [{ "default": "!q.is_alive" }],
+                    "particle_effects": [{ "effect": "health_bar", "locator": "health_locator" }]
+                }
+            }
+        },
+        "controller.animation.particle.host_speaker": {
+            "states": {
+                "default": { "transitions": [{ "play_particle": "q.is_alive" }]},
+                "play_particle": {
+                    "transitions": [{ "default": "!q.is_alive" }],
+                    "particle_effects": [{ "effect": "host_speaker", "locator": "speaker_locator" }]
+                }
+            }
+        }
+    }
+}

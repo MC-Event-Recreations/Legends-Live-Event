@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.prop.health": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"health_bar_main": {
+					"scale": ["(q.health/q.max_health)*1.01", 1, 1]
+				},
+				"health_barEnd": {
+					"scale": [
+						"q.health / q.max_health >= 0.983325 ? 1 : 0",
+						"q.health / q.max_health >= 0.983325 ? 1 : 0",
+						"q.health / q.max_health >= 0.983325 ? 1 : 0"
+					]
+				},
+				"HealthBarStart": {
+					"scale": [
+						"q.health / q.max_health >= 0.983325 ? 1 : 0",
+						"q.health / q.max_health >= 0.983325 ? 1 : 0",
+						"q.health / q.max_health >= 0.983325 ? 1 : 0"
+					]
+				}
+			}
+		}
+	}
+}

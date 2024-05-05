@@ -1,0 +1,19 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.well_of_fate.body": {
+            "geometry": "Geometry.default",
+            "materials": [{ "*": "Material.default" }],
+            "textures": [ "Texture.default" ],
+            "part_visibility": [{ "*": true }, { "health_bar*": false }]
+        },
+        "controller.render.well_of_fate.health_bar": {
+            "geometry": "Geometry.default",
+            "materials": [{ "*": "Material.default" }],
+            "textures": [ "Texture.health" ],
+            "part_visibility": [{ "*": false }, { "health_bar*": true }],
+            "is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 },
+            "ignore_lighting": true
+        }
+    }
+}

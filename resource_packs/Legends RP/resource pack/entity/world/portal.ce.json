@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:portal",
+            "materials": { "animated": "animated_texture", "default": "entity_alphatest" },
+            "textures": { "animated": "textures/entity/world/PortalAnimation", "health": "textures/entity/world/portal" },
+            "geometry": { "default": "geometry.portal" },
+            "animations": {
+                "health": "animation.portal.health",
+                "idle": "animation.portal.idle",
+                "destroy": "animation.portal.destroy",
+                "destroyed_pose": "animation.portal.destroyed_pose",
+                "flickering": "animation.portal.flickering",
+                "unlit": "animation.portal.unlit",
+                "state_controller": "controller.animation.portal.state_controller"
+            },
+            "particle_effects": {
+                "portal_explosion_small": "pork:portal_explosion_small",
+                "portal_explosion_large": "pork:portal_explosion_large",
+                "nether_particles": "pork:portal_north_south"
+            },
+            "scripts": {
+                "initialize": [ "v.lives=q.property('pork:lives');", "variable.num_particles = 5;" ],
+                "pre_animation": [ "v.lives=q.property('pork:lives');" ],
+                "animate": [ "health", "state_controller" ]
+            },
+            "render_controllers": [ "controller.render.portal.body", "controller.render.portal.lives" ]
+        }
+    }
+}

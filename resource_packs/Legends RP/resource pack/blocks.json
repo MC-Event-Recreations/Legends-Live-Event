@@ -1,0 +1,63 @@
+{
+    "format_version": [ 1, 1, 0 ],
+    "blackstone": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "grass",
+        "textures": { "down": "dirt", "side": "blackstone", "up": "grass_path_top" }
+    },
+    "blackstone_slab": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "grass",
+        "textures": { "down": "grass_path_top", "side": "blackstone_slab", "up": "grass_path_top" }
+    },
+    "polished_blackstone": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "nylium",
+        "textures": { "up": "polished_blackstone", "down": "polished_blackstone", "side": "polished_blackstone_side" }
+    },
+    "polished_blackstone_slab": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "nylium",
+        "textures": { "up": "polished_blackstone", "down": "polished_blackstone", "side": "polished_blackstone_slab" }
+    },
+    "sandstone_stairs": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "basalt",
+        "textures": { "down": "basalt_top", "side": "basalt_side", "up": "basalt_top" }
+    },
+    "sandstone": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "basalt",
+        "textures": { "down": "basalt_top", "side": "basalt_side", "up": "basalt_top" }
+    },
+    "mud_brick_slab": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "nylium",
+        "textures": { "up": "crimson_nylium_top", "down": "crimson_nylium_top", "side": "crimson_nylium_slab" }
+    },
+    "mud_brick_stairs": { "isotropic": false, "sound": "cloth", "textures": "wool_colored_red" },
+    "grass": {
+        "carried_textures": { "down": "grass_carried_bottom", "side": "grass_carried", "up": "grass_carried_top" },
+        "isotropic": { "down": true, "up": true },
+        "sound": "grass",
+        "textures": { "down": "grass_bottom", "side": "grass_carried", "up": "grass_top" }
+    },
+    "dirt": {
+        "isotropic": { "down": true, "up": true },
+        "sound": "stone",
+        "textures": { "down": "dirt_bottom", "side": "dirt", "up": "dirt_top" }
+    },
+    "stained_hardened_clay": { "isotropic": false, "sound": "stone", "textures": "stained_clay" },
+    "border_block": { "sound": "stone", "textures": "polished_granite" },
+    "pork:balloon_1": { "sound": "stone" },
+    "pork:balloon_strings": { "sound": "stone" },
+    "pork:cage_spike_1": { "sound": "stone" },
+    "pork:cage_spike_2": { "sound": "stone" },
+    "pork:cage_spike_3": { "sound": "stone" },
+    "pork:cage_spike_4": { "sound": "stone" },
+    "pork:cage_spike_5": { "sound": "stone" },
+    "pork:balloon_2": { "sound": "stone" },
+    "pork:balloon_3": { "sound": "stone" },
+    "pork:balloon_strings_2": { "sound": "stone" },
+    "pork:balloon_strings_3": { "sound": "stone" }
+}

@@ -1,0 +1,1 @@
+The contents of this world are under copyright (C) by Gamemode One and Mojang Studios.

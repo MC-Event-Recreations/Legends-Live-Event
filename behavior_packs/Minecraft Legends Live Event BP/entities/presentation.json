@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pork:presentation",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width":0,
+				"height":0
+			}
+		}
+	}
+}

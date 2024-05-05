@@ -1,0 +1,53 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:host_on_horse",
+            "materials": { "default": "piglin" },
+            "textures": {
+                "jeb": "textures/entity/host/jeb_on_horse",
+                "guest": "textures/entity/host/guest_on_horse",
+                "blank": "textures/blank"
+            },
+            "geometry": {
+                "jeb": "geometry.host_jeb_on_horse",
+                "guest": "geometry.host_guest_on_horse",
+                "host_on_horse_locators": "geometry.host_on_horse_locators"
+            },
+            "spawn_egg": { "base_color": "#000000", "overlay_color": "#FFFFFF" },
+            "particle_effects": { "host_speaker": "pork:host_speaker" },
+            "scripts": {
+                "initialize": [ "variable.eat_anim = 0.0;", "variable.stand_anim = 0; variable.shake_tail = 0;" ],
+                "pre_animation": [
+                    "variable.armor_texture_slot = query.armor_texture_slot(1);",
+                    "variable.eat_anim = math.clamp(variable.eat_anim + (query.is_grazing ? ((1.0 - variable.eat_anim) * 0.4 + 0.05) : -variable.eat_anim * 0.4 - 0.05) * query.delta_time * 20.0, 0.0, 1.0);",
+                    "variable.head_x_rot = query.target_x_rotation + (query.modified_move_speed > 0.2 ? (math.cos(query.modified_distance_moved * 11.46) * 11.46 * query.modified_move_speed + query.modified_move_speed * 11.46) : 0.0);",
+                    "variable.inverse_max_stand_eat = (1.0 - math.max(variable.stand_anim, variable.eat_anim));",
+                    "variable.leg_stand_factor = math.cos((query.modified_distance_moved * 38.38) + 180.0);",
+                    "variable.leg_x_rot_anim = variable.leg_stand_factor * 45.8 * query.modified_move_speed;"
+                ],
+                "animate": [
+                    "host_speaker",
+                    { "baby_transform": "query.is_baby" },
+                    "walk",
+                    { "rear": "variable.stand_anim > 0.0" },
+                    { "eat": "!query.is_standing" },
+                    { "cape": "q.variant == 0" },
+                    { "tail": "variable.shake_tail" }
+                ]
+            },
+            "animations": {
+                "cape": "animation.host.cape",
+                "host_speaker": "controller.animation.particle.host_speaker",
+                "baby_transform": "animation.horse.v3.baby_transform",
+                "walk": "animation.horse.v3.walk",
+                "eat": "animation.horse.v3.eat",
+                "rear": "animation.horse.v3.rear",
+                "tail": "animation.horse.v3.tail",
+                "look_at_player": "animation.horse.v3.look_at_player"
+            },
+            "render_controllers": [ "controller.render.host", "controller.render.host.host_on_horse_locators" ],
+            "enable_attachables": true
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:well_of_fate",
+            "materials": { "default": "entity_alphatest" },
+            "textures": {
+                "default": "textures/entity/world/well_of_fate",
+                "health": "textures/entity/world/well_of_fate_health"
+            },
+            "geometry": { "default": "geometry.well_of_fate" },
+            "animations": {
+                "health": "animation.well_of_fate.healthbar",
+                "idle": "animation.well_of_fate.idle",
+                "destroy": "animation.well_of_fate.destroy",
+                "destroyed_pose": "animation.well_of_fate.destroyed_pose",
+                "state_controller": "controller.animation.well_of_fate.state_controller"
+            },
+            "scripts": {
+                "initialize": [ "v.health = q.health;", "v.max_health = q.max_health;" ],
+                "pre_animation": [ "v.health = q.health;" ],
+                "animate": [ "health", "state_controller" ]
+            },
+            "render_controllers": [ "controller.render.well_of_fate.body", "controller.render.well_of_fate.health_bar" ]
+        }
+    }
+}

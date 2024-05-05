@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+        "description": {
+            "identifier": "pork:health_bar",
+            "basic_render_parameters": { "material": "particles_alpha", "texture": "textures/particle/health_bar" }
+        },
+        "components": {
+            "minecraft:emitter_initialization": {
+                "per_update_expression": "variable.health_mapped = math.round(((query.health) - 0) * (60 - 0) / (query.max_health - 0) + (0)) * math.abs((!q.is_alive)-1);"
+            },
+            "minecraft:emitter_local_space": { "position": true, "rotation": true },
+            "minecraft:emitter_rate_instant": { "num_particles": 1 },
+            "minecraft:emitter_lifetime_expression": {
+                "activation_expression": "q.is_alive",
+                "expiration_expression": "!q.is_alive"
+            },
+            "minecraft:emitter_shape_point": {},
+            "minecraft:particle_lifetime_expression": { "expiration_expression": "!q.is_alive" },
+            "minecraft:particle_initial_speed": 0,
+            "minecraft:particle_motion_dynamic": {},
+            "minecraft:particle_appearance_billboard": {
+                "size": [
+                    "1*(1-query.camera_distance_range_lerp(20,22))",
+                    "0.5*(1-query.camera_distance_range_lerp(20,22)) "
+                ],
+                "facing_camera_mode": "rotate_y",
+                "uv": {
+                    "texture_width": 64,
+                    "texture_height": 1952,
+                    "uv": [ 0, "variable.health_mapped*32" ],
+                    "uv_size": [ 64, 32 ]
+                }
+            },
+            "minecraft:particle_appearance_tinting": { "color": [ 1, 1, 1, 1 ]},
+            "minecraft:emitter_lifetime_events": { "expiration_event": [ "death" ]}
+        },
+        "events": {
+            "death": { "particle_effect": { "effect": "pork:health_bar_death", "type": "emitter" }}
+        }
+    }
+}

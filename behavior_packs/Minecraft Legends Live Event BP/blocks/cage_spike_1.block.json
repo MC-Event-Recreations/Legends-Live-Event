@@ -1,0 +1,21 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pork:cage_spike_1"
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.cage_spike_1",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cage_spike",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:light_dampening": 0
+		}
+	}
+}

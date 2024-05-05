@@ -1,0 +1,80 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:easter_egg",
+            "materials": { "default": "entity_alphatest" },
+            "spawn_egg": { "base_color": "#AFD6DC", "overlay_color": "#0995AB" },
+            "textures": {
+                "blank": "textures/blank",
+                "idle_1": "textures/entity/world/ee_badger",
+                "active_1": "textures/entity/world/ee_badger_collected",
+                "idle_2": "textures/entity/world/ee_big_beak",
+                "active_2": "textures/entity/world/ee_big_beak_collected",
+                "idle_3": "textures/entity/world/ee_regal_tiger",
+                "active_3": "textures/entity/world/ee_regal_tiger_collected",
+                "idle_4": "textures/entity/world/ee_brilliant_beetle",
+                "active_4": "textures/entity/world/ee_brilliant_beetle_collected"
+            },
+            "geometry": {
+                "blank": "geometry.blank",
+                "badger": "geometry.easter_egg_badger",
+                "big_beak": "geometry.easter_egg_big_beak",
+                "regal_tiger": "geometry.easter_egg_regal_tiger",
+                "brilliant_beetle": "geometry.easter_egg_brilliant_beetle"
+            },
+            "animations": {
+                "manager.type_1": "controller.animation.easter_egg.manager.type_1",
+                "manager.type_2": "controller.animation.easter_egg.manager.type_2",
+                "manager.type_3": "controller.animation.easter_egg.manager.type_3",
+                "manager.type_4": "controller.animation.easter_egg.manager.type_4",
+                "manager.type_5": "controller.animation.easter_egg.manager.type_5",
+                "rotate_face": "animation.direction.rotate_face",
+                "blank": "animation.gm1.blank"
+            },
+            "particle_effects": { "easter_egg_unlock": "pork:easter_egg_unlock" },
+            "scripts": {
+                "scale": "1-query.camera_distance_range_lerp(9,10)",
+                "initialize": [
+                    "v.easter_egg_1 = 0;",
+                    "v.easter_egg_2 = 0;",
+                    "v.easter_egg_3 = 0;",
+                    "v.easter_egg_4 = 0;",
+                    "v.easter_egg_5 = 0;"
+                ],
+                "pre_animation": [
+                    "v.easter_egg_1 = (t.easter_egg_1??0) ? t.easter_egg_1 : v.easter_egg_1;",
+                    "v.easter_egg_2 = (t.easter_egg_2??0) ? t.easter_egg_2 : v.easter_egg_2;",
+                    "v.easter_egg_3 = (t.easter_egg_3??0) ? t.easter_egg_3 : v.easter_egg_3;",
+                    "v.easter_egg_4 = (t.easter_egg_4??0) ? t.easter_egg_4 : v.easter_egg_4;",
+                    "v.easter_egg_5 = (t.easter_egg_5??0) ? t.easter_egg_5 : v.easter_egg_5;"
+                ],
+                "animate": [
+                    { "manager.type_1": "q.property('pork:type') == 1" },
+                    { "manager.type_2": "q.property('pork:type') == 2" },
+                    { "manager.type_3": "q.property('pork:type') == 3" },
+                    { "manager.type_4": "q.property('pork:type') == 4" },
+                    { "manager.type_5": "q.property('pork:type') == 5" },
+                    "rotate_face"
+                ]
+            },
+            "render_controllers": [
+                {
+                    "controller.render.easter_egg.type_1": "query.distance_from_camera < 10 ? q.property('pork:type') == 1 : 0"
+                },
+                {
+                    "controller.render.easter_egg.type_2": "query.distance_from_camera < 10 ? q.property('pork:type') == 2 : 0"
+                },
+                {
+                    "controller.render.easter_egg.type_3": "query.distance_from_camera < 10 ? q.property('pork:type') == 3 : 0"
+                },
+                {
+                    "controller.render.easter_egg.type_4": "query.distance_from_camera < 10 ? q.property('pork:type') == 4 : 0"
+                },
+                {
+                    "controller.render.easter_egg.type_5": "query.distance_from_camera < 10 ? q.property('pork:type') == 5 : 0"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+execute unless entity @e[x=~,z=~] run summon minecart

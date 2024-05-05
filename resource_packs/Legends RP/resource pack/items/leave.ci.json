@@ -1,0 +1,9 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": { "identifier": "pork:leave", "category": "Nature" },
+        "components": {
+            "minecraft:icon": "leave"
+        }
+    }
+}

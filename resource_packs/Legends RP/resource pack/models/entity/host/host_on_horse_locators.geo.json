@@ -1,0 +1,16 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.host_on_horse_locators",
+                "texture_width": 1,
+                "texture_height": 1,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4,
+                "visible_bounds_offset": [ 0, 2, 0 ]
+            },
+            "bones": [{ "name": "speaker_locator", "pivot": [ 0, 60, 0 ], "locators": { "speaker_locator": [ 0, 60, 5 ]}}]
+        }
+    ]
+}

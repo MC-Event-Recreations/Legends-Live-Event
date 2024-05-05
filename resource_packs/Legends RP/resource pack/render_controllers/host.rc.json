@@ -1,0 +1,24 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.host": {
+            "geometry": "array.g[q.variant]",
+            "textures": [ "array.t[q.variant]" ],
+            "materials": [{ "*": "Material.default" }],
+            "arrays": {
+                "textures": { "array.t": [ "Texture.jeb", "Texture.guest" ]},
+                "geometries": { "array.g": [ "Geometry.jeb", "Geometry.guest" ]}
+            }
+        },
+        "controller.render.host.host_locators": {
+            "geometry": "Geometry.host_locators",
+            "textures": [ "Texture.blank" ],
+            "materials": [{ "*": "Material.default" }]
+        },
+        "controller.render.host.host_on_horse_locators": {
+            "geometry": "Geometry.host_on_horse_locators",
+            "textures": [ "Texture.blank" ],
+            "materials": [{ "*": "Material.default" }]
+        }
+    }
+}

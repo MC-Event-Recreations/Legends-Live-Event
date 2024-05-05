@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:tower",
+            "materials": { "default": "slime_outer" },
+            "textures": { "default": "textures/entity/world/tower" },
+            "geometry": { "default": "geometry.tower" },
+            "render_controllers": [ "controller.render.default" ],
+            "animations": { "static_dir": "animation.direction.static" },
+            "scripts": { "animate": [ "static_dir" ]}
+        }
+    }
+}

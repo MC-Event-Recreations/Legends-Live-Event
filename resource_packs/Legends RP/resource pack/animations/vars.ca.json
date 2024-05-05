@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.var.easter_egg_1.true": {
+            "anim_time_update": "t.easter_egg_1 = query.is_local_player ? 1 : (t.easter_egg_1??0); return 0;"
+        },
+        "animation.var.easter_egg_2.true": {
+            "anim_time_update": "t.easter_egg_2 = query.is_local_player ? 1 : (t.easter_egg_2??0); return 0;"
+        },
+        "animation.var.easter_egg_3.true": {
+            "anim_time_update": "t.easter_egg_3 = query.is_local_player ? 1 : (t.easter_egg_3??0); return 0;"
+        },
+        "animation.var.easter_egg_4.true": {
+            "anim_time_update": "t.easter_egg_4 = query.is_local_player ? 1 : (t.easter_egg_4??0); return 0;"
+        },
+        "animation.var.easter_egg_5.true": {
+            "anim_time_update": "t.easter_egg_5 = query.is_local_player ? 1 : (t.easter_egg_5??0); return 0;"
+        },
+        "animation.var.easter_egg_1.false": {
+            "anim_time_update": "t.easter_egg_1 = query.is_local_player ? -1 : (t.easter_egg_1??0); return 0;"
+        },
+        "animation.var.easter_egg_2.false": {
+            "anim_time_update": "t.easter_egg_2 = query.is_local_player ? -1 : (t.easter_egg_2??0); return 0;"
+        },
+        "animation.var.easter_egg_3.false": {
+            "anim_time_update": "t.easter_egg_3 = query.is_local_player ? -1 : (t.easter_egg_3??0); return 0;"
+        },
+        "animation.var.easter_egg_4.false": {
+            "anim_time_update": "t.easter_egg_4 = query.is_local_player ? -1 : (t.easter_egg_4??0); return 0;"
+        },
+        "animation.var.easter_egg_5.false": {
+            "anim_time_update": "t.easter_egg_5 = query.is_local_player ? -1 : (t.easter_egg_5??0); return 0;"
+        }
+    }
+}

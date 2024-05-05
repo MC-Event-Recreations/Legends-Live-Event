@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.unbuilt_structure.particle": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        { "wall": "q.anim_time > 1.5 && q.property('pork:type') == 'wall'" },
+                        { "tower": "q.anim_time > 1.5 && q.property('pork:type') == 'tower'" }
+                    ],
+                    "animations": [ "blank" ]
+                },
+                "wall": {
+                    "transitions": [{ "default": "q.property('pork:type') != 'wall'" }],
+                    "particle_effects": [{ "effect": "unbuilt_structure_wall", "locator": "bone" }]
+                },
+                "tower": {
+                    "transitions": [{ "default": "q.property('pork:type') != 'tower'" }],
+                    "particle_effects": [{ "effect": "unbuilt_structure_tower", "locator": "bone" }]
+                }
+            }
+        }
+    }
+}

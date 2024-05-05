@@ -1,0 +1,68 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "mc porkchop",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "polished_blackstone_side": { "textures": "textures/blocks/polished_blackstone_side" },
+        "blackstone_slab": { "textures": "textures/blocks/blackstone_slab" },
+        "polished_blackstone_slab": { "textures": "textures/blocks/polished_blackstone_slab" },
+        "crimson_nylium_slab": { "textures": "textures/blocks/crimson_nylium_slab" },
+        "grass_slab": { "textures": "textures/blocks/grass_slab" },
+        "wool": {
+            "textures": [
+                "textures/blocks/wool_colored_white",
+                "textures/blocks/wool_colored_orange",
+                "textures/blocks/wool_colored_magenta",
+                "textures/blocks/shulker_top_light_blue",
+                "textures/blocks/wool_colored_yellow",
+                "textures/blocks/wool_colored_lime",
+                "textures/blocks/shulker_top_blue",
+                "textures/blocks/wool_colored_gray",
+                "textures/blocks/wool_colored_silver",
+                "textures/blocks/wool_colored_cyan",
+                "textures/blocks/wool_colored_purple",
+                "textures/blocks/wool_colored_blue",
+                "textures/blocks/wool_colored_brown",
+                "textures/blocks/wool_colored_green",
+                "textures/blocks/wool_colored_red",
+                "textures/blocks/wool_colored_black"
+            ]
+        },
+        "stone_slab_top_2": {
+            "textures": [
+                "textures/blocks/red_sandstone_top",
+                "textures/blocks/grass_carried",
+                "textures/blocks/prismarine_rough",
+                "textures/blocks/prismarine_dark",
+                "textures/blocks/prismarine_bricks",
+                "textures/blocks/cobblestone_mossy",
+                "textures/blocks/sandstone_top",
+                "textures/blocks/red_nether_brick"
+            ]
+        },
+        "dirt_top": { "textures": [ "textures/blocks/dirt", "textures/blocks/grass_carried" ]},
+        "dirt_bottom": { "textures": [ "textures/blocks/dirt", "textures/blocks/coarse_dirt_bottom" ]},
+        "purpur_block_top": {
+            "textures": [
+                "textures/blocks/purpur_block",
+                "textures/blocks/purpur_block",
+                "textures/blocks/crimson_nylium_top"
+            ]
+        },
+        "purpur_block_bottom": {
+            "textures": [
+                "textures/blocks/purpur_block",
+                "textures/blocks/purpur_block",
+                "textures/blocks/crimson_nylium_top"
+            ]
+        },
+        "pork_balloon_1": { "textures": "textures/blocks/balloon_1" },
+        "pork_balloon_strings": { "textures": "textures/blocks/balloon_1" },
+        "pork_cage_spike": { "textures": "textures/blocks/cage_spike" },
+        "pork_balloon_2": { "textures": "textures/blocks/balloon_1" },
+        "pork_balloon_3": { "textures": "textures/blocks/balloon_1" },
+        "pork_balloon_strings_2": { "textures": "textures/blocks/balloon_1" },
+        "pork_balloon_strings_3": { "textures": "textures/blocks/balloon_1" }
+    }
+}

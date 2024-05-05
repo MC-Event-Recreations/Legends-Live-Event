@@ -1,0 +1,42 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.easter_egg.type_1": {
+            "geometry": "geometry.badger",
+            "textures": [
+                "v.easter_egg_1 == -1 && !(t.easter_egg_1??0) ? array.t[2] : (v.easter_egg_1 == 1 ? array.t[0] : array.t[1])"
+            ],
+            "materials": [{ "*": "Material.default" }],
+            "arrays": { "textures": { "array.t": [ "Texture.idle_1", "Texture.active_1", "Texture.blank" ]}}
+        },
+        "controller.render.easter_egg.type_2": {
+            "geometry": "geometry.big_beak",
+            "textures": [
+                "v.easter_egg_2 == -1 && !(t.easter_egg_2??0) ? array.t[2] : (v.easter_egg_2 == 1 ? array.t[0] : array.t[1])"
+            ],
+            "materials": [{ "*": "Material.default" }],
+            "arrays": { "textures": { "array.t": [ "Texture.idle_2", "Texture.active_2", "Texture.blank" ]}}
+        },
+        "controller.render.easter_egg.type_3": {
+            "geometry": "geometry.regal_tiger",
+            "textures": [
+                "v.easter_egg_3 == -1 && !(t.easter_egg_3??0) ? array.t[2] : (v.easter_egg_3 == 1 ? array.t[0] : array.t[1])"
+            ],
+            "materials": [{ "*": "Material.default" }],
+            "arrays": { "textures": { "array.t": [ "Texture.idle_3", "Texture.active_3", "Texture.blank" ]}}
+        },
+        "controller.render.easter_egg.type_4": {
+            "geometry": "geometry.brilliant_beetle",
+            "textures": [
+                "v.easter_egg_4 == -1 && !(t.easter_egg_4??0) ? array.t[2] : (v.easter_egg_4 == 1 ? array.t[0] : array.t[1])"
+            ],
+            "materials": [{ "*": "Material.default" }],
+            "arrays": { "textures": { "array.t": [ "Texture.idle_4", "Texture.active_4", "Texture.blank" ]}}
+        },
+        "controller.render.easter_egg.type_5": {
+            "geometry": "Geometry.blank",
+            "materials": [{ "*": "Material.default" }],
+            "textures": [ "Texture.blank" ]
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.portal.state_controller": {
+            "initial_state": "determine",
+            "states": {
+                "determine": {
+                    "transitions": [
+                        { "destroyed_pose": "q.property('pork:is_destroyed') && q.property('pork:lives') <= 0" },
+                        { "default": "!q.property('pork:is_destroyed')" },
+                        { "unlit": "q.property('pork:is_destroyed') && q.property('pork:lives') > 0" }
+                    ]
+                },
+                "default": {
+                    "transitions": [
+                        { "destroy": "q.property('pork:is_destroyed') && q.property('pork:lives') <= 0" },
+                        { "flickering": "q.property('pork:is_destroyed') && q.property('pork:lives') > 0" }
+                    ],
+                    "animations": [ "idle" ]
+                },
+                "flickering": {
+                    "animations": [ "flickering" ],
+                    "transitions": [
+                        { "unlit": "q.all_animations_finished" },
+                        { "default": "!q.property('pork:is_destroyed')" }
+                    ]
+                },
+                "unlit": { "transitions": [{ "default": "!q.property('pork:is_destroyed')" }], "animations": [ "unlit" ]},
+                "destroy": {
+                    "transitions": [
+                        { "default": "!q.property('pork:is_destroyed')" },
+                        { "destroyed_pose": "q.all_animations_finished" }
+                    ],
+                    "animations": [ "destroy" ]
+                },
+                "destroyed_pose": {
+                    "transitions": [{ "default": "!q.property('pork:is_destroyed')" }],
+                    "animations": [ "destroyed_pose" ]
+                }
+            }
+        }
+    }
+}

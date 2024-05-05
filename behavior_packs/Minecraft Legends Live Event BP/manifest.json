@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Minecraft Legends Live Event BP",
+		"description": "Minecraft Legends Live Event BP Behavior Pack",
+		"uuid": "96afaa7a-1378-25c5-94e3-344968e4d382",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_block_wizard": ["1.1.2"],
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c0449724-7546-4b84-1720-419c5927f47f",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5f3d658a-a69b-494f-b04d-fe7d585354fd",
+			"version": [1, 0, 0]
+		}
+	]
+}

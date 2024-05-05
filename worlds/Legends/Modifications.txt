@@ -1,0 +1,6 @@
+Modifications
+
+- Put wool under the carpet in the shop
+- Put wool under some of the red carpet leading to the arena
+- Put dirt under the slime blocks in the plank golem parkour
+- Removed some barriers and replaced them with border blocks

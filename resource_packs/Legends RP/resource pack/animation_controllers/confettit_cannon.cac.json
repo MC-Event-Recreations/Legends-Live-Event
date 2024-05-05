@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.confetti.particle": {
+            "states": {
+                "default": { "transitions": [{ "confetti": "q.property('pork:is_activated')" }]},
+                "confetti": {
+                    "transitions": [{ "default": "q.all_animations_finished && !q.property('pork:is_activated')" }],
+                    "animations": [ "confetti" ]
+                }
+            }
+        }
+    }
+}

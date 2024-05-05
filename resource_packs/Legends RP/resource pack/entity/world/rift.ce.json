@@ -1,0 +1,16 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:rift",
+            "materials": { "default": "entity_alphablend" },
+            "spawn_egg": { "base_color": "#AFD6DC", "overlay_color": "#0995AB" },
+            "textures": { "default": "textures/entity/world/portal" },
+            "geometry": { "default": "geometry.rift" },
+            "animations": { "spiral": "animation.rift.spiral", "particles": "animation.rift.particles" },
+            "particle_effects": { "rift_particle": "pork:rift_particle", "spiral": "pork:rift_spiral" },
+            "scripts": { "animate": [ "spiral", "particles" ]},
+            "render_controllers": [ "controller.render.rift" ]
+        }
+    }
+}

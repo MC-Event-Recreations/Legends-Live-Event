@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Gamemode One"
+        ],
+        "generated_with": {
+            "bridge": [
+                "2.6.0"
+            ],
+            "dash": [
+                "0.10.8"
+            ]
+        }
+    },
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ],
+        "uuid": "5f3d658a-a69b-494f-b04d-fe7d585354fd",
+        "version": [
+            1,
+            0,
+            8
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "47aa96dc-15c7-4e93-8c4e-19b23aefb9ca",
+            "version": [
+                1,
+                0,
+                8
+            ]
+        }
+    ]
+}

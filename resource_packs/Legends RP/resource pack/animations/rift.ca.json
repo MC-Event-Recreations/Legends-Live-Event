@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rift.spiral": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 12,
+			"particle_effects": {
+				"0.0": {
+					"effect": "spiral",
+					"locator": "locator"
+				}
+			}
+		},
+		"animation.rift.particles": {
+			"loop": true,
+			"animation_length": 2,
+			"anim_time_update": "(query.anim_time + query.delta_time) * (math.clamp(query.life_time/4,0,2))",
+			"particle_effects": {
+				"0.0": {
+					"effect": "rift_particle",
+					"locator": "locator"
+				}
+			}
+		}
+	}
+}

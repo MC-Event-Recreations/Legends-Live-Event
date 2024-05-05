@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.portal.body": {
+            "geometry": "Geometry.default",
+            "materials": [{ "*": "Material.animated" }],
+            "textures": [ "Texture.animated" ],
+            "uv_anim": { "offset": [ "math.round(query.life_time*12)/29", 0 ], "scale": [ "1/29", 1 ]},
+            "part_visibility": [{ "*": true }, { "life_1": false }, { "life_2": false }, { "life_3": false }, { "block*": false }]
+        },
+        "controller.render.portal.lives": {
+            "geometry": "Geometry.default",
+            "materials": [{ "*": "Material.default" }],
+            "textures": [ "Texture.health" ],
+            "part_visibility": [
+                { "*": false },
+                { "block*": "q.property('pork:is_destroyed')" },
+                { "life_1": "q.property('pork:lives') >= 1" },
+                { "life_2": "q.property('pork:lives') >= 2" },
+                { "life_3": "q.property('pork:lives') >= 3" }
+            ],
+            "is_hurt_color": { "r": 0, "g": 0, "b": 0, "a": 0 },
+            "ignore_lighting": true
+        }
+    }
+}

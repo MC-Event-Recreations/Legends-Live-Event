@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:presentation",
+            "materials": { "default": "entity_alphatest" },
+            "textures": {
+                "slide_1": "textures/entity/presentation/slideshow_all_is_well",
+                "slide_2": "textures/entity/presentation/slideshow_hero",
+                "slide_3": "textures/entity/presentation/slideshow_keyart",
+                "slide_4": "textures/entity/presentation/slideshow_legendsLogo",
+                "slide_5": "textures/entity/presentation/slideshow_piglinsAttack",
+                "slide_6": "textures/entity/presentation/slideshow_portal"
+            },
+            "animations": { "rotate_face_xy": "animation.direction.rotate_face_xy" },
+            "scripts": { "scale": "2", "animate": [ "rotate_face_xy" ]},
+            "geometry": { "default": "geometry.presentation" },
+            "render_controllers": [ "controller.render.presentation" ]
+        }
+    }
+}

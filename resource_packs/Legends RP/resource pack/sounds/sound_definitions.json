@@ -1,0 +1,1656 @@
+// @prettier-ignore
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"confetti_shoot": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/entities/confetti_shoot",
+				"volume": 1
+			}]
+		},
+		"curtains_open": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/entities/curtain_open",
+				"volume": 1
+			}]
+		},
+		"portal_light": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/entities/portal/portal_light",
+				"volume": 2.5
+			}]
+		},
+		"shop_purchase": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/entities/shop_purchase",
+				"volume": 1
+			}]
+		},
+		"target_hit": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/entities/target_hit",
+				"volume": 3
+			}]
+		},
+		"player_freed": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/player_freed",
+				"volume": 0.7
+			}]
+		},
+		"earn_currency_1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/earn_currency",
+				"volume": 1,
+				"pitch": 0.8
+			}]
+		},
+		"earn_currency_2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/earn_currency",
+				"volume": 1,
+				"pitch": 1
+			}]
+		},
+		"wall_explosion": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/wall_explosion",
+				"volume": 1,
+				"pitch": 1
+			}]
+		},
+		"earn_currency_3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/earn_currency",
+				"volume": 1,
+				"pitch": 1.2
+			}]
+		},
+		"mob.well.special_hurt_sound": {
+			"category": "hostile",
+			"sounds": ["sounds/mob/well/special_hurt_sound"]
+		},
+		"easter_egg_beetle": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/jingles/easter_egg_beetle_collect",
+				"volume": 1
+			}]
+		},
+		"easter_egg_badger": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/jingles/easter_egg_badger_collect",
+				"volume": 1
+			}]
+		},
+		"easter_egg_toucan": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/jingles/easter_egg_toucan_collect",
+				"volume": 1
+			}]
+		},
+		"easter_egg_tiger": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/jingles/easter_egg_tiger_collect",
+				"volume": 1
+			}]
+		},
+		"portal_hurt": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/entities/portal/portal_damage1",
+					"volume": 0.3,
+					"pitch": 1.5
+				},
+				{
+					"name": "sounds/entities/portal/portal_damage2",
+					"volume": 0.3,
+					"pitch": 1.5
+				},
+				{
+					"name": "sounds/entities/portal/portal_damage3",
+					"volume": 0.3,
+					"pitch": 1.5
+				}
+			]
+		},
+		"well_damage": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/well_of_fate_warning",
+				"volume": 0.7
+			}]
+		},
+		"well_destroy_local": {
+			"category": "neutral",
+			"sounds": [{
+					"name": "sounds/entities/portal/portal_explode1",
+					"volume": 1.5,
+					"pitch": 1.3
+				},
+				{
+					"name": "sounds/entities/portal/portal_explode2",
+					"volume": 1.5,
+					"pitch": 1.3
+				},
+				{
+					"name": "sounds/entities/portal/portal_explode3",
+					"volume": 1.5,
+					"pitch": 1.3
+				}
+			]
+		},
+		"portal_destroy_local": {
+			"category": "neutral",
+			"sounds": [{
+					"name": "sounds/entities/portal/portal_destroy_option1",
+					"volume": 1.5
+				}
+			]
+		},
+		"portal_destroy": {
+			"category": "music",
+			"sounds": [{
+					"name": "sounds/entities/portal/portal_destroy_option2",
+					"volume": 0.3
+				}
+			]
+		},
+		"resource_collect": {
+			"category": "music",
+			"sounds": [{
+					"name": "sounds/jingles/resource_collect",
+					"volume": 1
+				}
+			]
+		},
+		"parkour_checkpoint": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/parkour_checkpoint_reached",
+				"volume": 1
+			}]
+		},
+		"null": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/parkour_checkpoint_reached",
+				"volume": 0
+			}]
+		},
+		"parkour_finish": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/parkour_finish",
+				"volume": 1
+			}]
+		},
+		"parkour_step": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/parkour_step",
+				"volume": 1
+			}]
+		},
+		"wave_end_cry": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/jingles/end_of_wave",
+				"volume": 0.8
+			}]
+		},
+		"piglin_chant": {
+			"category": "music",
+			"sounds": [{
+					"name": "sounds/jingles/piglin_chant1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/jingles/piglin_chant1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/jingles/piglin_chant1",
+					"volume": 1
+				}
+			]
+		},
+		"player_win": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/players_win",
+				"volume": 0.6
+			}]
+		},
+		"intro_tense": {
+			"category": "music",
+			"sounds": [{
+				"stream": true,
+				"name": "sounds/music/tense_jeb",
+				"volume": 0.3
+			}]
+		},
+		"tailgate": {
+			"category": "music",
+			"sounds": [{
+				"stream": true,
+				"name": "sounds/music/tailgate",
+				"volume": 0.5
+			}]
+		},
+		"general_combat": {
+			"category": "music",
+			"sounds": [{
+				"stream": true,
+				"name": "sounds/music/general_combat",
+				"volume": 0.2
+			}]
+		},
+		"intense_combat": {
+			"category": "music",
+			"sounds": [{
+				"stream": true,
+				"name": "sounds/music/intense_combat",
+				"volume": 0.2
+			}]
+		},
+		"player_lose": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/players_lose",
+				"volume": 1.2
+			}]
+		},
+		"rift_spawn": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/structure_build",
+				"volume": 1
+			}]
+		},
+		"structure_build": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/jingles/structure_build",
+				"volume": 2.5
+			}]
+		},
+		"player_death": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/player_death",
+				"volume": 0.5
+			}]
+		},
+		"piglin_horn1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/piglin_horn1",
+				"volume": 1
+			}]
+		},
+		"piglin_horn2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/jingles/piglin_horn2",
+				"volume": 1
+			}]
+		},
+		"rec_test_2x": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/rectest",
+				"pitch": 0.5,
+				"volume": 1
+			}]
+		},
+		"rec_test_1x": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/rectest_1x",
+				"volume": 1
+			}]
+		},
+		"rec_test2_2x": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/96k_rectest",
+				"pitch": 0.5,
+				"volume": 1
+			}]
+		},
+		"rec_test2_1x": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/96k_rectest_1x",
+				"volume": 1
+			}]
+		},
+		"dialogue.tailgate.1A.1": {
+			"category": "neutral",
+			"sounds": [{
+				"name": "sounds/tempvo/dialogue.tailgate.1A.1",
+				"volume": 1
+			}]
+		},
+		"music.game": {
+			"__use_legacy_max_distance": "true",
+			"category": "music",
+			"sounds": []
+		},
+		"ambient.cave" : {
+		   "category" : "ambient",
+		   "sounds": []
+		},
+		"vo.tailgate.greeting.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.10": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.10",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.11": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.11",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.12": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.12",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.13": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.13",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.14": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.14",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.15": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.15",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.greeting.16": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.greeting.16",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.10": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.10",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.11": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.11",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.12": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.12",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.parkour.13": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.parkour.13",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.coaster.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.coaster.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.coaster.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.coaster.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.coaster.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.coaster.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.coaster.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.coaster.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.coaster.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.coaster.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.taillgate.shout.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.taillgate.shout.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.shout.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.shout.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.taillgate.shout.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.taillgate.shout.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.shout.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.shout.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.taillgate.shout.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.taillgate.shout.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.shout.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.shout.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.taillgate.shout.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.taillgate.shout.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.tailgate.ending.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.tailgate.ending.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.10": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.10",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.presentation.11": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.presentation.11",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.interruption.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.interruption.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.intro.shout.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.intro.shout.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.start.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.start.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.start.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.start.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.start.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.start.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.start.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.start.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.start.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.start.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.retreat.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.retreat.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.retreat.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.retreat.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.end.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.end.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.end.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.end.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.end.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.end.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.1.end.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.1.end.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.2.start.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.2.start.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.2.start.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.2.start.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.2.retreat.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.2.retreat.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.2.end.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.2.end.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.2.end.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.2.end.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.2.end.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.2.end.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.3.start.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.3.start.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.3.start.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.3.start.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.3.start.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.3.start.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.3.start.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.3.start.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.3.retreat.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.3.retreat.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.3.retreat.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.3.retreat.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.exchange.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.exchange.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.exchange.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.exchange.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.10": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.10",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.11": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.11",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.12": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.12",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.13": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.13",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.14": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.14",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.15": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.15",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.16": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.16",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.17": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.17",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.18": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.18",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.19": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.19",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.20": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.20",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.aside.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.aside.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.aside.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.aside.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.aside.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.aside.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.strong.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.strong.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.strong.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.strong.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.tnt.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.tnt.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.tnt.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.tnt.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.tnt.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.tnt.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.tnt.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.tnt.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.well.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.well.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.well.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.well.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.well.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.well.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.rift.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.rift.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.rift.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.rift.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.horn.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.horn.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.horn.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.horn.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.21": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.21",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.22": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.22",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.advice.23": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.advice.23",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.shout.structure.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.shout.structure.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.arena.inbetween.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.arena.inbetween.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.10": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.10",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.win.11": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.win.11",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.1": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.1",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.2": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.2",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.3": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.3",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.4": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.4",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.5": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.5",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.6": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.6",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.7": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.7",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.8": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.8",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		},
+		"vo.outro.lose.9": {
+			"category": "music",
+			"sounds": [{
+				"name": "sounds/vo/vo.outro.lose.9",
+				"pitch": 1.0,
+				"volume": 1.3
+			}]
+		}
+	}
+}

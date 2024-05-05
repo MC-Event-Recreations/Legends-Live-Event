@@ -1,0 +1,126 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"pork:well_of_fate" : {
+				"events" : {
+				   "hurt" : "portal_hurt"
+				},
+				"pitch" : 1.6,
+				"volume" : 1.0
+			},
+			"pork:portal" : {
+				"events" : {
+				   "hurt" : "portal_hurt"
+				},
+				"pitch" : 1.0,
+				"volume" : 1.0
+			},
+			"pork:enemy_hoglin" : {
+				"events" : {
+				   "ambient" : "mob.hoglin.ambient",
+				   "angry" : "mob.hoglin.angry",
+				   "attack" : "mob.hoglin.attack",
+				   "death" : "mob.hoglin.death",
+				   "hurt" : "mob.hoglin.hurt",
+				   "retreat" : "mob.hoglin.retreat",
+				   "step" : {
+					  "pitch" : 1.0,
+					  "sound" : "mob.hoglin.step",
+					  "volume" : 1.0
+				   }
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"pork:enemy_brute": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events" : {
+					"ambient" : "mob.piglin_brute.ambient",
+					"angry" : "mob.piglin_brute.angry",
+					"death" : "mob.piglin_brute.death",
+					"hurt" : "mob.piglin_brute.hurt",
+					"step" : {
+					   "sound" : "mob.piglin_brute.step",
+					   "volume" : 0.350
+					}
+				 }
+			},
+			"pork:enemy_lightweight": {
+				"volume": 1,
+				"pitch": [
+					1.2,
+					1.4
+				],
+				"events": {
+					"ambient" : "mob.piglin.ambient",
+					"hurt" : "mob.piglin.hurt",
+					"death" : "mob.piglin.death",
+					"angry": {
+						"sound": "mob.piglin.angry",
+						"volume": 2,
+						"pitch": [
+							1.44,
+							2.16
+						]
+					},
+					"step" : {
+						"sound" : "mob.piglin.step",
+						"volume" : 0.350
+					 }
+				}
+			},
+			"pork:enemy_melee": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient" : "mob.piglin.ambient",
+					"hurt" : "mob.piglin.hurt",
+					"death" : "mob.piglin.death",
+					"angry": {
+						"sound": "mob.piglin.angry",
+						"volume": 2,
+						"pitch": [
+							1.44,
+							2.16
+						]
+					},
+					"step" : {
+						"sound" : "mob.piglin.step",
+						"volume" : 0.350
+					 }
+				}
+			},
+			"pork:enemy_ranged": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient" : "mob.piglin.ambient",
+					"hurt" : "mob.piglin.hurt",
+					"death" : "mob.piglin.death",
+					"angry": {
+						"sound": "mob.piglin.angry",
+						"volume": 2,
+						"pitch": [
+							1.44,
+							2.16
+						]
+					},
+					"step" : {
+						"sound" : "mob.piglin.step",
+						"volume" : 0.350
+					 }
+				}
+			}
+		}
+	}
+}

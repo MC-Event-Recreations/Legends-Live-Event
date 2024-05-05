@@ -1,0 +1,12 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.rift": {
+            "geometry": "Geometry.default",
+            "materials": [{ "*": "Material.default" }],
+            "textures": [ "Texture.default" ],
+            "ignore_lighting": true,
+            "overlay_color": { "a": "Math.max(-q.life_time/8 + 1, 0)", "r": 0, "g": 0.4, "b": 0.8 }
+        }
+    }
+}

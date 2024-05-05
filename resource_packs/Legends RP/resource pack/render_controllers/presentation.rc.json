@@ -1,0 +1,22 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.presentation": {
+            "geometry": "geometry.default",
+            "textures": [ "array.t[q.property('pork:slide')-1]" ],
+            "materials": [{ "*": "Material.default" }],
+            "arrays": {
+                "textures": {
+                    "array.t": [
+                        "Texture.slide_1",
+                        "Texture.slide_2",
+                        "Texture.slide_3",
+                        "Texture.slide_4",
+                        "Texture.slide_5",
+                        "Texture.slide_6"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:structure_resource",
+            "spawn_egg": { "base_color": "#AFD6DC", "overlay_color": "#0995AB" },
+            "materials": { "default": "entity_alphablend" },
+            "textures": { "default": "textures/entity/world/structure_resource" },
+            "geometry": { "default": "geometry.structure_resource" },
+            "animations": { "rotate_face": "animation.direction.rotate_face" },
+            "scripts": { "animate": [ "rotate_face" ]},
+            "render_controllers": [ "controller.render.structure_resource" ]
+        }
+    }
+}

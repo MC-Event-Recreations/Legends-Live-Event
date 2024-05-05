@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pork:unbuilt_structure",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/blank" },
+            "geometry": { "default": "geometry.blank" },
+            "animations": {
+                "particle": "controller.animation.unbuilt_structure.particle",
+                "blank": "animation.gm1.blank"
+            },
+            "particle_effects": {
+                "unbuilt_structure_wall": "pork:unbuilt_structure_wall",
+                "unbuilt_structure_tower": "pork:unbuilt_structure_tower"
+            },
+            "scripts": { "animate": [ "particle" ], "should_update_bones_and_effects_offscreen": true },
+            "render_controllers": [ "controller.render.gm1.default" ]
+        }
+    }
+}

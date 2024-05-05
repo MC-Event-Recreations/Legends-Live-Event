@@ -1,0 +1,65 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.easter_egg.manager.type_1": {
+            "states": {
+                "default": { "transitions": [{ "unlocked": "(v.easter_egg_1??0) == 1" }, { "pre_unlock": "1" }]},
+                "pre_unlock": { "transitions": [{ "on_unlock": "(v.easter_egg_1??0) == 1" }]},
+                "on_unlock": {
+                    "transitions": [{ "unlocked": "q.anim_time > 0.2" }],
+                    "particle_effects": [{ "effect": "easter_egg_unlock" }],
+                    "animations": [ "blank" ]
+                },
+                "unlocked": { "transitions": [{ "pre_unlock": "(v.easter_egg_1??0) == -1" }]}
+            }
+        },
+        "controller.animation.easter_egg.manager.type_2": {
+            "states": {
+                "default": { "transitions": [{ "unlocked": "(v.easter_egg_2??0) == 1" }, { "pre_unlock": "1" }]},
+                "pre_unlock": { "transitions": [{ "on_unlock": "(v.easter_egg_2??0) == 1" }]},
+                "on_unlock": {
+                    "transitions": [{ "unlocked": "q.anim_time > 0.2" }],
+                    "particle_effects": [{ "effect": "easter_egg_unlock" }],
+                    "animations": [ "blank" ]
+                },
+                "unlocked": { "transitions": [{ "pre_unlock": "(v.easter_egg_2??0) == -1" }]}
+            }
+        },
+        "controller.animation.easter_egg.manager.type_3": {
+            "states": {
+                "default": { "transitions": [{ "unlocked": "(v.easter_egg_3??0) == 1" }, { "pre_unlock": "1" }]},
+                "pre_unlock": { "transitions": [{ "on_unlock": "(v.easter_egg_3??0) == 1" }]},
+                "on_unlock": {
+                    "transitions": [{ "unlocked": "q.anim_time > 0.2" }],
+                    "particle_effects": [{ "effect": "easter_egg_unlock" }],
+                    "animations": [ "blank" ]
+                },
+                "unlocked": { "transitions": [{ "pre_unlock": "(v.easter_egg_3??0) == -1" }]}
+            }
+        },
+        "controller.animation.easter_egg.manager.type_4": {
+            "states": {
+                "default": { "transitions": [{ "unlocked": "(v.easter_egg_4??0) == 1" }, { "pre_unlock": "1" }]},
+                "pre_unlock": { "transitions": [{ "on_unlock": "(v.easter_egg_4??0) == 1" }]},
+                "on_unlock": {
+                    "transitions": [{ "unlocked": "q.anim_time > 0.2" }],
+                    "particle_effects": [{ "effect": "easter_egg_unlock" }],
+                    "animations": [ "blank" ]
+                },
+                "unlocked": { "transitions": [{ "pre_unlock": "(v.easter_egg_4??0) == -1" }]}
+            }
+        },
+        "controller.animation.easter_egg.manager.type_5": {
+            "states": {
+                "default": { "transitions": [{ "unlocked": "(v.easter_egg_5??0) == 1" }, { "pre_unlock": "1" }]},
+                "pre_unlock": { "transitions": [{ "on_unlock": "(v.easter_egg_5??0) == 1" }]},
+                "on_unlock": {
+                    "transitions": [{ "unlocked": "q.anim_time > 0.2" }],
+                    "particle_effects": [{ "effect": "easter_egg_unlock" }],
+                    "animations": [ "blank" ]
+                },
+                "unlocked": { "transitions": [{ "pre_unlock": "(v.easter_egg_5??0) == -1" }]}
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.host_on_horse.riding": {
+            "loop": true,
+            "bones": {
+                "leftarm": { "rotation": [ -36, 0, 0 ]},
+                "rightarm": { "rotation": [ -36, 0, 0 ]},
+                "leftleg": { "rotation": [ -72, -18, 0 ]},
+                "rightleg": { "rotation": [ -72, 18, 0 ]}
+            }
+        },
+        "animation.host.cape": {
+            "loop": true,
+            "bones": { "cape": { "rotation": [ "math.lerp(0.0, 126.0, q.modified_move_speed/4) - 6.0", 0, 0 ]}}
+        }
+    }
+}
